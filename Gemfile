@@ -45,3 +45,9 @@ group :test do
   gem 'launchy'
   gem 'selenium-webdriver'
 end
+
+gem 'dotenv'
+gem 'sidekiq'
+gem 'sidekiq-failures'
+gem 'sidekiq-scheduler'
+gem 'sidekiq-unique-jobs'

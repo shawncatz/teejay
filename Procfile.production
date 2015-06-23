@@ -1,0 +1,2 @@
+web: /usr/local/rvm/bin/rvm 2.2.2 do bundle exec unicorn_rails -c config/unicorn.rb -p $PORT -E production
+worker: /usr/local/rvm/bin/rvm 2.2.2 do bundle exec sidekiq -C config/sidekiq.yml -e production -i 0

@@ -1,0 +1,18 @@
+---
+:concurrency: 5
+:pidfile: tmp/pids/sidekiq.pid
+:queues:
+  - [high, 3]
+  - [default, 2]
+  - [low, 1]
+:schedule:
+#  scheduled_job:
+#    class: Jobs::Schedule
+#    cron: "*/5 * * * *"
+
+production:
+  :concurrency: 5
+
+development:
+  :schedule:
+    # disable schedule in development
