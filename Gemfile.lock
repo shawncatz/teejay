@@ -124,7 +124,6 @@ GEM
       haml (~> 4.0.0)
       nokogiri (~> 1.6.0)
       ruby_parser (~> 3.5)
-    hub (1.12.4)
     i18n (0.7.0)
     interception (0.5)
     jbuilder (2.3.0)
@@ -315,7 +314,6 @@ DEPENDENCIES
   foreman
   haml-rails
   html2haml
-  hub
   jbuilder (~> 2.0)
   jquery-rails
   launchy

@@ -49,7 +49,7 @@ group :development do
   gem 'capistrano-rvm'
   gem 'foreman'
   gem 'html2haml'
-  gem 'hub', :require=>nil
+  # gem 'hub', :require=>nil
   gem 'quiet_assets'
   gem 'rails_layout'
   gem 'spring-commands-rspec'
