@@ -11,6 +11,7 @@ gem 'bootstrap-sass'
 gem 'haml-rails'
 
 gem 'jbuilder', '~> 2.0'
+gem 'therubyracer', :platform=>:ruby
 
 group :production do
   gem 'unicorn'
