@@ -18,6 +18,7 @@ set :keep_releases, 5
 set :migration_role, 'app'
 set :conditionally_migrate, true
 
+set :nginx_server_name, 'hooks.ulive.sh'
 set :unicorn_logrotate_enabled, true
 # ignore this if you do not need SSL
 set :nginx_use_ssl, true
